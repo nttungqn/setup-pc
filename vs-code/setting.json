@@ -1,0 +1,105 @@
+{
+  "editor.fontFamily": "'Ubuntu Mono', monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "settingsSync.ignoredSettings": ["editor.overviewRulerBorder"],
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.tabSize": 4,
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.alwaysShowStatus": true,
+  "html.format.enable": false,
+  "htmlhint.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "rainbowTags.allowEverywhere": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.minimap.enabled": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.trimAutoWhitespace": false,
+  "eslint.run": "onSave",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true,
+    "suppressGitMissingWarning": true
+  },
+  "editor.fontSize": 18,
+  "cSpell.userWords": ["tungnt"],
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  },
+  "go.formatTool": "gofmt",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.rulers": [120]
+  },
+  "gopls": {
+    "formatting.gofumpt": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrapColumn": 120,
+  "[yaml]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.autoIndent": "advanced"
+  },
+  "[yml]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.autoIndent": "advanced"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.autoIndent": "advanced"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ]
+}
